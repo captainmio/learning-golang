@@ -1,4 +1,4 @@
-{{template "nase" .}}
+{{template "base" .}}
 
 
 {{define "content"}}
@@ -6,7 +6,8 @@
         <div class="row">
             <div class="col-12">
                 <h1> this is about page</h1>
-                <p> this is a sample description in about page</p>
+                <p>this is a sample description in about page</p>
+                <p>New update test - reading . . .{{ index .StringMap "test" }}</p>
             </div>
         </div>
     </div>  
